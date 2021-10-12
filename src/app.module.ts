@@ -5,7 +5,7 @@ import { EmployeesModule } from './employees/employees.module';
 @Module({
   imports: [
     EmployeesModule,
-    // MongooseModule.forRoot('mongodb://localhost:27017/nestdb'),
+    MongooseModule.forRoot('mongodb://localhost:27017/nestdb'),
   ],
 })
 export class AppModule {}

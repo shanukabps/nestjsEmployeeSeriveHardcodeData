@@ -1,16 +1,16 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { EmployeeStatus, EmployeeTier } from '../employee.enum';
 
-// //Mongos way
-// export const EmployeeSchema = {
-//   id: String,
-//   firstName: String,
-//   lastName: String,
-//   designation: String,
-//   nearestcity: String,
-//   tier: EmployeeTier,
-//   status: EmployeeStatus,
-// };
+// // //Mongos way
+// // export const EmployeeSchema = {
+// //   id: String,
+// //   firstName: String,
+// //   lastName: String,
+// //   designation: String,
+// //   nearestcity: String,
+// //   tier: EmployeeTier,
+// //   status: EmployeeStatus,
+// // };
 
 export type EmployeeDocument = Employee & Document;
 
